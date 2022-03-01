@@ -27,5 +27,8 @@ getent group <groupname>
 ## Sudo
 
 ## Conections
-
+### IMPORTANTE Denegar puerto 22
+  sudo ufw deny 22
+### Realizar conexión
+  Asegurarse de que el puerto 4242 sea el que va por defect en etc/ssh/sshd_config DESCOMENTAR EL JODIDO PUERTO EN ESE ARCHIVO. Descomentar también lo de no entrar como root.
 ## Hostname
