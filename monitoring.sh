@@ -13,7 +13,3 @@ echo "#Connexions TCP :" $(ss -s | grep TCP | awk 'NR==2 {printf "%d ESTABLISHED
 echo "#User log:" $(who | wc -l)
 echo "#Network IP:" $(hostname -I) $(ip a | grep link/ether | awk '{printf " (%s)\n", $2}')
 echo "#Sudo : "$(cat /var/log/sudo/sudo.log | grep 'COMMAND' | wc -l) "cmd"
-
-
-
-https://github.com/adrihamel/Born2beRoot_42cursus/blob/master/apuntes.txt
