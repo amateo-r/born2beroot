@@ -3,7 +3,7 @@
 ## Passwords
 root: V1rtualM4ster
 amateo-r: 3stup1daPWD
-LVM partition: P4art1tionB0ng
+LVM partition: P4rt1tionB0ng
 
 ## Users
 ### Create user:
